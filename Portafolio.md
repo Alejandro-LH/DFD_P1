@@ -192,11 +192,14 @@ Se debe pedir un numero,
 #### 1.2 DFD
 ![Captura de pantalla 18](https://user-images.githubusercontent.com/113395327/190954772-1d268f13-e5b7-4f56-b6d7-1d33aa6b7045.png)
 #### 1.3 Prueba de escritorio
-|digite un numero|n>10|mayor a 10|menor a 10|salida|
-|-|-|-|-|-|
-|5|||5<10|menor|
+|n |n>10 |"Es mayor a 10"|"Es menor a 10"|
+|--|-----|---------------|---------------|
+|5 |     |               |5<10           |
+|14|14>10|14>10          |               |
 #### 1.4 Entradas
+n
 #### 1.5 Salidas
+"Es mayor a 10","Es menor a 10"
 
 ### Ejercio 19. Cuantos me falta para que llegue a 10.
 #### 1.1 Analisis
@@ -206,7 +209,7 @@ Se debera capturar un numero y saber cuanto le hace falta para llegar a 10
 #### 1.3 Prueba de escritorio
 |n |n>10 |10-n|"Te falta", n, "para 10"|n-10 |"Te pasaste por", n|
 |--|-----|----|------------------------|-----|-------------------|
-|6 |     |10-6|Te falt", 4, para 10    |     |                   |
+|6 |     |10-6|Te falta, 4, para 10    |     |                   |
 |12|12>10|    |                        |12-10|Te pasaste por, 2  |
 #### 1.4 Entradas 
 n
