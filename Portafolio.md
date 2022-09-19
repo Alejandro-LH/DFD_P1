@@ -180,11 +180,18 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 17. Digite si un numero es par o impar
 #### 1.1 Analisis
+Escribir un numero entero positivo e identificar si este es par o impar.
 #### 1.2 DFD
 ![Captura de pantalla 17](https://user-images.githubusercontent.com/113395327/190953172-bfe029c5-cdfc-436d-8a67-00c134105e63.png)
 #### 1.3 Prueba de escritorio
+|n|n>0|n%2==0|"par"|"impar"|
+|-|---|======|-----|-------|
+|2|2>0|n%2==0|par  |       |
+|7|7>0|      |     |impar  |
 #### 1.4 Entradas
+n
 #### 1.5 Salidas
+"par","impar"
 
 ### Ejercicio 18. Escriba un DFD que indique si un numero es mayor a 10.
 #### 1.1 Analisis
@@ -199,7 +206,7 @@ Se debe pedir un numero,
 #### 1.4 Entradas
 n
 #### 1.5 Salidas
-"Es mayor a 10","Es menor a 10"
+"Es mayor a 10", "Es menor a 10"
 
 ### Ejercio 19. Cuantos me falta para que llegue a 10.
 #### 1.1 Analisis
@@ -230,7 +237,7 @@ Capturar n numeros e indicar cuantos son positivos y negativos, cuando el usuari
 #### 1.4 Entradas
 n
 #### 1.5 Salidas
-"Total de numero negativos",neg,"Total de numeros positivos",pos
+"Total de numero negativos",neg, "Total de numeros positivos",pos
 
 ### Ejercicio 21. Capture un numero positivo o negativo, 0 para terminar.
 #### 1.1 Analisis
@@ -246,4 +253,4 @@ Capturar un numero positivo o negativo, termina cuando sea 0.
 #### 1.4 Entradas
 n
 #### 1.5 Salidas
-n==0,cont==n
+n==0, cont==n
