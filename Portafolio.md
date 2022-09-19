@@ -3,11 +3,12 @@
 ### Ejercicio 1. Imprimir el nombre de una persona
 #### 1.1 Analisis 
 #### 1.2 DFD
+![Captura de Pantalla 1](https://user-images.githubusercontent.com/113395327/190947211-1b3346fe-34f8-475e-998d-6a38966d95c8.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas
 #### 1.5 Salidas
 
-### Ejercicio 2.
+### Ejercicio 2. Escribe 
 #### 1.1 Analisis
 #### 1.2 DFD
 #### 1.3 Prueba de escritorio 
