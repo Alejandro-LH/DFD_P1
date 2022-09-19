@@ -328,4 +328,5 @@ Capturar un numero positivo o negativo, termina cuando sea 0.
 n
 #### 1.5 Salidas
 n==0, cont==n
+
 ![Datos](https://user-images.githubusercontent.com/113395327/191012801-62540397-af72-4a58-928d-bc7ba899e168.png)
