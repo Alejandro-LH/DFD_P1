@@ -171,8 +171,9 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 16. Capture n numeros e imprima solo la suma de los pares.
 #### 1.1 Analisis
+
 #### 1.2 DFD
-![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190953975-adb6d84c-4d0d-45ee-8c75-ce5b52818b6e.png)
+![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190994917-ca54525e-38e9-47d8-b703-11f4e0d234a7.png)
 #### 1.3 Prueba de escritorio
 
 #### 1.4 Entradas
