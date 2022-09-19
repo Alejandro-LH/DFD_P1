@@ -6,9 +6,7 @@ Necesito imprimir mi nombre.
 #### 1.2 DFD
 ![Captura de Pantalla 1](https://user-images.githubusercontent.com/113395327/190947211-1b3346fe-34f8-475e-998d-6a38966d95c8.png)
 #### 1.3 Prueba de escritorio 
-|"nombre"|
-|-|
-|Jahir|
+
 #### 1.4 Entradas.
 Ninguna
 #### 1.5 Salidas.
@@ -20,9 +18,7 @@ Se devera imprimir el dia de hoy.
 #### 1.2 DFD
 ![Captura de pantalla 2](https://user-images.githubusercontent.com/113395327/190952900-cda167e4-43a5-4e51-a72f-40b6c68fc985.png)
 #### 1.3 Prueba de escritorio 
-|"Imprime el dia de hoy"|
-|-|
-|Lunes|
+
 #### 1.4 Entradas 
 Ninguna
 #### 1.5 Salidas
@@ -34,9 +30,7 @@ Insertar un simbolo de proceso para asignar la variable de nombre e imprimir "Ho
 #### 1.2 DFD
 ![Captura de pantalla 3](https://user-images.githubusercontent.com/113395327/190952978-e7b6cc0b-d8a8-4c07-8ff9-1868f114ae59.png)
 #### 1.3 Prueba de escritorio
-|"Hola",nom|
-|-|
-|Hola Jahir|
+
 #### 1.4 Entradas
 Ninguna
 #### 1.5 Salidas 
@@ -116,20 +110,32 @@ Insertar el valor de n, despues sacar el cuadrado de n.
 #### 1.5 Salidas
 
 ### Ejercio 10. Pregunte el año de nacimineto de una persona y calcule su edad.
-#### 1.1 Analisis
+#### 1.1 Analisis 
+Preguntar el año de nacimiento, despues el año actual, y restar el año actual con el año de nacimiento. 
 #### 1.2 DFD
 ![Captura de pantalla 10](https://user-images.githubusercontent.com/113395327/190953078-09828078-9382-403b-87e3-ff71f16e477f.png)
 #### 1.3 Prueba de escritorio
+|ana|aac|aac-ana|
+|-|-|-|
+|2004|2022|2022-2004|
 #### 1.4 Entradas
+ana,aac
 #### 1.5 Salidas
+aac-ana
 
 ### Ejercio 11. Pregunte el año de nacimiento de una persona y el año actual y calcule su edad.
 #### 1.1 Analisis
+Preguntar el año de nacimiento de una persona, luego preguntar el año actual, y despues calcular su edad.
 #### 1.2 DFD
 ![Captura de pantalla 11](https://user-images.githubusercontent.com/113395327/190953096-da109e2c-93b4-4e61-8b00-9687f63cc197.png)
 #### 1.3 Prueba de escritorio
+|a_nac|a_act|a_act>a_nac|a_act-a_nac|
+|-|-|-|-|
+|2004|2022|2022>2004|2022-2004|
 #### 1.4 Entradas
+a_nac,a_act
 #### 1.5 Salidas
+a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 12. Pregunte el año de nacimiento y el actual, calcule el año de nacimeinto de la persona.
 #### 1.1 Analisis
@@ -186,8 +192,8 @@ Insertar el valor de n, despues sacar el cuadrado de n.
 ![Captura de pantalla 18](https://user-images.githubusercontent.com/113395327/190954772-1d268f13-e5b7-4f56-b6d7-1d33aa6b7045.png)
 #### 1.3 Prueba de escritorio
 |digite un numero|n>10|mayor a 10|menor a 10|salida|
-|----------------|----|----------|----------|------|
-|5               |    |          |5<10      |menor |
+|-|-|-|-|-|
+|5|||5<10|menor|
 #### 1.4 Entradas
 #### 1.5 Salidas
 
@@ -196,9 +202,9 @@ Insertar el valor de n, despues sacar el cuadrado de n.
 #### 1.2 DFD
 ![Captura de pantalla 19](https://user-images.githubusercontent.com/113395327/190959270-bcc169b8-3728-47d9-855c-4ac2b7580b25.png)
 #### 1.3 Prueba de escritorio
-|n|n>10|10-n|Te falta, n, para  10|n-10|Te pasaste por, n|Salida            |
-|-|----|----|---------------------|----|-----------------|------------------|
-|6|    |10-6|Te falta, 4, para 10 |    |                 |Te falta 4 para 10|
+|n|n>10|10-n|Te falta, n, para 10|n-10|Te pasaste por, n|Salida|
+|-|-|-|-|-|-|-|
+|6||10-6|Te falta, 4, para 10 |||Te falta 4 para 10|
 #### 1.4 Entradas 
 #### 1.5 Salidas
 
@@ -212,8 +218,16 @@ Insertar el valor de n, despues sacar el cuadrado de n.
 
 ### Ejercicio 21. Capture un numero positivo o negativo, 0 para terminar.
 #### 1.1 Analisis
+Capturar un numero positivo o negativo, termina cuando sea 0.
 #### 1.2 DFD
-![Captura de pantalla 21](https://user-images.githubusercontent.com/113395327/190954158-9e338b48-fb23-4e65-90cc-9eccac855538.png)
+![Captura de pantalla 21](https://user-images.githubusercontent.com/113395327/190988506-46b97938-d366-4e64-a01d-06e0a0b50070.png)
 #### 1.3 Prueba de escritorio
+|n|n==0|cont==n|n>0|n+1|n-1|
+|-|----|-------|---|---|---|
+|2|    |0==2   |2>0|   |2-1|
+| |    |0==1   |1>0|   |1-1|
+| |    |0==0   |   |   |   |
 #### 1.4 Entradas
+n
 #### 1.5 Salidas
+n==0,cont==n
