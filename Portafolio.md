@@ -123,7 +123,7 @@
 ### Ejercicio 16. Capture n numeros e imprima solo la suma de los pares.
 #### 1.1 Analisis
 #### 1.2 DFD
-
+![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190953975-adb6d84c-4d0d-45ee-8c75-ce5b52818b6e.png)
 #### 1.3 Prueba de escritorio
 #### 1.4 Entradas
 #### 1.5 Salidas
@@ -139,6 +139,7 @@
 ### Ejercicio 18. Escriba un DFD que indique si un numero es mayor a 10.
 #### 1.1 Analisis
 #### 1.2 DFD
+![Captura de pantalla 18](https://user-images.githubusercontent.com/113395327/190954772-1d268f13-e5b7-4f56-b6d7-1d33aa6b7045.png)
 #### 1.3 Prueba de escritorio
 #### 1.4 Entradas
 #### 1.5 Salidas
@@ -146,6 +147,7 @@
 ### Ejercio 19. Cuantos me falta para que llegue a 10.
 #### 1.1 Analisis
 #### 1.2 DFD
+![Captura de pantalla 19](https://user-images.githubusercontent.com/113395327/190954661-33390053-1eda-495c-8eb9-7a345e536215.png)
 #### 1.3 Prueba de escritorio
 #### 1.4 Entradas
 #### 1.5 Salidas
@@ -153,6 +155,7 @@
 ### Ejercicio 20. Capture n numeros, al final indique cuantos son positivos y cuantos negativos, escriba 0 para terminar.
 #### 1.1 Analisis
 #### 1.2 DFD
+![Captura de pantalla 20](https://user-images.githubusercontent.com/113395327/190954426-5f0e9ba3-dc9f-43cd-a21a-c79aa8f10c82.png)
 #### 1.3 Prueba de escritorio
 #### 1.4 Entradas
 #### 1.5 Salidas
@@ -160,6 +163,7 @@
 ### Ejercicio 21. Capture un numero positivo o negativo, 0 para terminar.
 #### 1.1 Analisis
 #### 1.2 DFD
+![Captura de pantalla 21](https://user-images.githubusercontent.com/113395327/190954158-9e338b48-fb23-4e65-90cc-9eccac855538.png)
 #### 1.3 Prueba de escritorio
 #### 1.4 Entradas
 #### 1.5 Salidas
