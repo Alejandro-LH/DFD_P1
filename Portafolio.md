@@ -210,11 +210,19 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 20. Capture n numeros, al final indique cuantos son positivos y cuantos negativos, escriba 0 para terminar.
 #### 1.1 Analisis
+Capturar n numeros e indicar cuantos son positivos y negativos, cuando el usuario inserte un 0 se termeina la captura de datos.
 #### 1.2 DFD
 ![Captura de pantalla 20](https://user-images.githubusercontent.com/113395327/190954426-5f0e9ba3-dc9f-43cd-a21a-c79aa8f10c82.png)
 #### 1.3 Prueba de escritorio
+|n |n==0|n>0|neg=neg+1|pos=pos+1|"Total de numeros negativos", neg|"Total de numero positivos", pos|
+|- |----|---|---------|---------|---------------------------------|--------------------------------|
+|3 |    |3>0|         |0=0+1    |                                 |                                |
+|-5|    |   |0=0+1    |         |                                 |                                |
+|0 |0==0|   |         |         |1                                |1                               |
 #### 1.4 Entradas
+n
 #### 1.5 Salidas
+"Total de numero negativos",neg,"Total de numeros positivos",pos
 
 ### Ejercicio 21. Capture un numero positivo o negativo, 0 para terminar.
 #### 1.1 Analisis
