@@ -1,69 +1,106 @@
 # Presentacion 
 ## Problemas resueltos en clase con DFD
 ### Ejercicio 1. Imprimir el nombre de una persona.
-#### 1.1 Analisis 
+#### 1.1 Analisis. 
+Necesito imprimir mi nombre.
 #### 1.2 DFD
 ![Captura de Pantalla 1](https://user-images.githubusercontent.com/113395327/190947211-1b3346fe-34f8-475e-998d-6a38966d95c8.png)
 #### 1.3 Prueba de escritorio 
-|msg    |salida|
-|-------|------|
-|"Jahir"|Jahir |
+|"nombre"|
+|-|
+|Jahir|
 #### 1.4 Entradas.
-ninguna
+Ninguna
 #### 1.5 Salidas.
 Jahir
 
 ### Ejercicio 2. Escribe el algoritmo que escriba el dia de hoy.
 #### 1.1 Analisis
+Se devera imprimir el dia de hoy.
 #### 1.2 DFD
 ![Captura de pantalla 2](https://user-images.githubusercontent.com/113395327/190952900-cda167e4-43a5-4e51-a72f-40b6c68fc985.png)
 #### 1.3 Prueba de escritorio 
-
+|"Imprime el dia de hoy"|
+|-|
+|Lunes|
 #### 1.4 Entradas 
+Ninguna
 #### 1.5 Salidas
+Lunes
 
 ### Ejercico 3. Escribe un algoritmo que diga hola (nombre).
 #### 1.1 Analisis
+Insertar un simbolo de proceso para asignar la variable de nombre e imprimir "Hola" nombre.
 #### 1.2 DFD
 ![Captura de pantalla 3](https://user-images.githubusercontent.com/113395327/190952978-e7b6cc0b-d8a8-4c07-8ff9-1868f114ae59.png)
 #### 1.3 Prueba de escritorio
+|"Hola",nom|
+|-|
+|Hola Jahir|
 #### 1.4 Entradas
+Ninguna
 #### 1.5 Salidas 
-
+Hola Jahir
 ### Ejercicio 4. Escribe un algoritmo que diga buena dia(nombre).
 #### 1.1 Analisis
+Se necesita preguntar el nombre, despues imprimir "Buen dia" nombre.
 #### 1.2 DFD
 ![Captura de pantalla 4](https://user-images.githubusercontent.com/113395327/190953007-61c92f8b-373d-4d58-ac2d-33d0e22966c3.png)
-#### 1.3 Pruebas 
+#### 1.3 Pruebas de escritorio
+|entrada|salida|
+|-|-|
+|nom|Buen dia, nom|
+|Jahir|Buen dia, Jahir|
 #### 1.4 Entradas
+Jahir
 #### 1.5 Salidas
+Buen dia, Jahir
 
 ### Ejercio 5. Escriba un diagrama de flujo que calcule el cuadrado del dos.
 #### 1.1 Analisis
+Calcular el cuadrado de 2.
 #### 1.2 DFD
 ![Captura de pantalla 5](https://user-images.githubusercontent.com/113395327/190953023-3e2b6ae7-e864-4469-9485-4ca20e506ec1.png)
 #### 1.3 Prueba de escritorio
+|Sacar el cuadrado de 2|
+|-|
+|2 * 2|
 #### 1.4 Entradas
+Ninguna
 #### 1.5 Salidas
+2 * 2
 
 ### Ejercico 6. Escriba un DFD que calcule el cuadrado de n para n=5.
 #### 1.1 Analisis
+Se necesita Insertar un simbolo de proceso para asignar el valor de la variable n e imprimir su cuadrado.
 #### 1.2 DFD
 ![Captura de pantalla 6](https://user-images.githubusercontent.com/113395327/190953037-41937145-00ac-4a69-b13a-a83efafed0bf.png)
 #### 1.3 Prueba de escritorio
+|n es igual a 5|"sacar el cuadrado de n"|
+|-|-|
+|n=5|5 * 5|
 #### 1.4 Entradas
+Ninguna
 #### 1.5 Salidas
+5 * 5
 
 ### Ejercicio 7. Pregunta al usuasio el valor n y obtener el cuadrado.
 #### 1.1 Analisis
+Insertar el valor de n, despues sacar el cuadrado de n.
 #### 1.2 DFD
 ![Captura de pantalla 7](https://user-images.githubusercontent.com/113395327/190953049-bb8e7144-f513-4313-8bd1-d62d0c01ecc4.png)
 #### 1.3 Prueba de escritorio
-#### 1.4 Entradas
+|Dame el valor de n|n|n * n|
+|-|-|-|
+|Dame el valor de n|5|5 * 5|
+#### 1.4 Entradas 
+5
 #### 1.5 Salidas
+5 * 5
 
 ### Ejercico 8. Obtenga el cuadrado de la suma de 2 numeros enteros.
 #### 1.1 Analisis
+
 #### 1.2 DFD
 ![Captura de pantalla 8](https://user-images.githubusercontent.com/113395327/190953065-a15b9ac4-48b6-463f-b5e5-bde77b4c4cdb.png)
 #### 1.3 Prueba de escritorio
@@ -131,6 +168,7 @@ Jahir
 #### 1.2 DFD
 ![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190953975-adb6d84c-4d0d-45ee-8c75-ce5b52818b6e.png)
 #### 1.3 Prueba de escritorio
+
 #### 1.4 Entradas
 #### 1.5 Salidas
 
