@@ -5,14 +5,20 @@
 #### 1.2 DFD
 ![Captura de Pantalla 1](https://user-images.githubusercontent.com/113395327/190947211-1b3346fe-34f8-475e-998d-6a38966d95c8.png)
 #### 1.3 Prueba de escritorio 
-#### 1.4 Entradas
-#### 1.5 Salidas
+|msg    |salida|
+|-------|------|
+|"Jahir"|Jahir |
+#### 1.4 Entradas.
+ninguna
+#### 1.5 Salidas.
+Jahir
 
 ### Ejercicio 2. Escribe el algoritmo que escriba el dia de hoy.
 #### 1.1 Analisis
 #### 1.2 DFD
 ![Captura de pantalla 2](https://user-images.githubusercontent.com/113395327/190952900-cda167e4-43a5-4e51-a72f-40b6c68fc985.png)
 #### 1.3 Prueba de escritorio 
+
 #### 1.4 Entradas 
 #### 1.5 Salidas
 
@@ -141,15 +147,21 @@
 #### 1.2 DFD
 ![Captura de pantalla 18](https://user-images.githubusercontent.com/113395327/190954772-1d268f13-e5b7-4f56-b6d7-1d33aa6b7045.png)
 #### 1.3 Prueba de escritorio
+|digite un numero|n>10|mayor a 10|menor a 10|salida|
+|----------------|----|----------|----------|------|
+|5               |    |          |5<10      |menor |
 #### 1.4 Entradas
 #### 1.5 Salidas
 
 ### Ejercio 19. Cuantos me falta para que llegue a 10.
 #### 1.1 Analisis
 #### 1.2 DFD
-![Captura de pantalla 19](https://user-images.githubusercontent.com/113395327/190954661-33390053-1eda-495c-8eb9-7a345e536215.png)
+![Captura de pantalla 19](https://user-images.githubusercontent.com/113395327/190959270-bcc169b8-3728-47d9-855c-4ac2b7580b25.png)
 #### 1.3 Prueba de escritorio
-#### 1.4 Entradas
+|n|n>10|10-n|Te falta, n, para  10|n-10|Te pasaste por, n|Salida            |
+|-|----|----|---------------------|----|-----------------|------------------|
+|6|    |10-6|Te falta, 4, para 10 |    |                 |Te falta 4 para 10|
+#### 1.4 Entradas 
 #### 1.5 Salidas
 
 ### Ejercicio 20. Capture n numeros, al final indique cuantos son positivos y cuantos negativos, escriba 0 para terminar.
