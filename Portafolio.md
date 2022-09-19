@@ -171,13 +171,20 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 16. Capture n numeros e imprima solo la suma de los pares.
 #### 1.1 Analisis
-
+Capture n numeros, despues imprimir la suma de los pares.
 #### 1.2 DFD
-![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190994917-ca54525e-38e9-47d8-b703-11f4e0d234a7.png)
+![Captura de pantalla 16](https://user-images.githubusercontent.com/113395327/190995396-034d6fc2-3656-49bc-9a7d-1d0cae53a09e.png)
 #### 1.3 Prueba de escritorio
-
+|m|cont==m|n|cont+1|n%2==0|Suma par+n|suma par|
+|-|-------|-|------|------|----------|--------|
+|3|0==3   |4|0+1   |4%2==0|0+4       |        |
+| |1==3   |2|1+1   |2%2==0|4+2       |        |
+| |2==3   |8|2+1   |8%2==0|6+8       |        |
+| |3==3   | |      |      |          |14      |
 #### 1.4 Entradas
+m,n
 #### 1.5 Salidas
+suma par
 
 ### Ejercicio 17. Digite si un numero es par o impar
 #### 1.1 Analisis
