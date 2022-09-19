@@ -184,10 +184,10 @@ Escribir un numero entero positivo e identificar si este es par o impar.
 #### 1.2 DFD
 ![Captura de pantalla 17](https://user-images.githubusercontent.com/113395327/190953172-bfe029c5-cdfc-436d-8a67-00c134105e63.png)
 #### 1.3 Prueba de escritorio
-|n|n>0|n%2==0|"par"|"impar"|
-|-|---|======|-----|-------|
-|2|2>0|n%2==0|par  |       |
-|7|7>0|      |     |impar  |
+|n |n>0|n%2==0|"par"|"impar"|
+|--|---|------|-----|-------|
+|2 |2>0|n%2==0|par  |       |
+|7 |7>0|      |     |impar  |
 #### 1.4 Entradas
 n
 #### 1.5 Salidas
