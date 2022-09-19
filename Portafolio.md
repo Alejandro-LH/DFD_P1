@@ -188,6 +188,7 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercicio 18. Escriba un DFD que indique si un numero es mayor a 10.
 #### 1.1 Analisis
+Se debe pedir un numero, 
 #### 1.2 DFD
 ![Captura de pantalla 18](https://user-images.githubusercontent.com/113395327/190954772-1d268f13-e5b7-4f56-b6d7-1d33aa6b7045.png)
 #### 1.3 Prueba de escritorio
@@ -199,14 +200,18 @@ a_act-a_nac, el año de nacimineto no debe ser maayor al actual.
 
 ### Ejercio 19. Cuantos me falta para que llegue a 10.
 #### 1.1 Analisis
+Se debera capturar un numero y saber cuanto le hace falta para llegar a 10
 #### 1.2 DFD
 ![Captura de pantalla 19](https://user-images.githubusercontent.com/113395327/190959270-bcc169b8-3728-47d9-855c-4ac2b7580b25.png)
 #### 1.3 Prueba de escritorio
-|n|n>10|10-n|Te falta, n, para 10|n-10|Te pasaste por, n|Salida|
-|-|-|-|-|-|-|-|
-|6||10-6|Te falta, 4, para 10 |||Te falta 4 para 10|
+|n |n>10 |10-n|"Te falta", n, "para 10"|n-10 |"Te pasaste por", n|
+|--|-----|----|------------------------|-----|-------------------|
+|6 |     |10-6|Te falt", 4, para 10    |     |                   |
+|12|12>10|    |                        |12-10|Te pasaste por, 2  |
 #### 1.4 Entradas 
+n
 #### 1.5 Salidas
+"Te pasaste por", n, "Te falta", n, "para 10"
 
 ### Ejercicio 20. Capture n numeros, al final indique cuantos son positivos y cuantos negativos, escriba 0 para terminar.
 #### 1.1 Analisis
