@@ -20,9 +20,9 @@ Se devera imprimir el dia de hoy.
 #### 1.2 DFD
 ![Captura de pantalla 2](https://user-images.githubusercontent.com/113395327/190952900-cda167e4-43a5-4e51-a72f-40b6c68fc985.png)
 #### 1.3 Prueba de escritorio 
-|msg              |salida  |
-|-----------------|--------|
-|"Dia de la semana| viernes|
+|msg               |salida  |
+|------------------|--------|
+|"Dia de la semana"|Lunes   |
 #### 1.4 Entradas 
 Ninguna
 #### 1.5 Salidas
@@ -34,22 +34,23 @@ Insertar un simbolo de proceso para asignar la variable de nombre e imprimir "Ho
 #### 1.2 DFD
 ![Captura de pantalla 3](https://user-images.githubusercontent.com/113395327/190952978-e7b6cc0b-d8a8-4c07-8ff9-1868f114ae59.png)
 #### 1.3 Prueba de escritorio
-|msg       |salida    |
-|----------|----------|
-|"hola",nom| hola nom |
+|msg    |salida    |
+|-------|----------|
+|nom=nom| hola nom |
+
 #### 1.4 Entradas
 Ninguna
 #### 1.5 Salidas 
-Hola Jahir
+Hola nom
 ### Ejercicio 4. Escribe un algoritmo que diga buena dia(nombre).
 #### 1.1 Analisis
 Se necesita preguntar el nombre, despues imprimir "Buen dia" nombre.
 #### 1.2 DFD
 ![Captura de pantalla 4](https://user-images.githubusercontent.com/113395327/190953007-61c92f8b-373d-4d58-ac2d-33d0e22966c3.png)
 #### 1.3 Pruebas de escritorio
-|msg              |entrada |salida         |
-|-----------------|--------|---------------|
-|"como te llamas?"|nom     |"buen dia" nom |
+|msg               |entrada |salida          |
+|------------------|--------|----------------|
+|"¿como te llamas?"|Jahir   |"buen dia" Jahir|
 #### 1.4 Entradas
 Jahir
 #### 1.5 Salidas
