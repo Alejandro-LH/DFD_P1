@@ -6,9 +6,9 @@ Necesito imprimir mi nombre.
 #### 1.2 DFD
 ![Captura de Pantalla 1](https://user-images.githubusercontent.com/113395327/190947211-1b3346fe-34f8-475e-998d-6a38966d95c8.png)
 #### 1.3 Prueba de escritorio 
-|msg|salida|
-|---|------|
-|nom|Jahir |
+|Msg|salida |
+|---|-------|
+|nom|"Jahir"|
 #### 1.4 Entradas.
 Ninguna
 #### 1.5 Salidas.
@@ -34,9 +34,9 @@ Insertar un simbolo de proceso para asignar la variable de nombre e imprimir "Ho
 #### 1.2 DFD
 ![Captura de pantalla 3](https://user-images.githubusercontent.com/113395327/190952978-e7b6cc0b-d8a8-4c07-8ff9-1868f114ae59.png)
 #### 1.3 Prueba de escritorio
-|msg    |salida    |
-|-------|----------|
-|nom=nom| hola nom |
+|msg    |salida  |
+|-------|--------|
+|nom=nom|hola nom|
 
 #### 1.4 Entradas
 Ninguna
